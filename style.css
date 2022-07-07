@@ -136,3 +136,18 @@ p {
   font-weight: bold;
   margin-right: 10px;
 }
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  color: #c5b7aa;
+  max-width: 940px;
+  padding: 0 40px;
+  margin: 10px;
+}
+
+.section__left {
+  flex-basis: 60%;
+}
