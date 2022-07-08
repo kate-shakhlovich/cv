@@ -2,8 +2,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .body,
@@ -11,12 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
-header {
-  padding-top: 10px;
-}
 .container {
-  background-color: rgb(233, 227, 227);
   position: relative;
+  border: 1px solid #c5b7aa;
+  box-shadow: 0px 0px 3px 0px grey;
   max-width: 1020px;
   margin: auto;
 }
@@ -138,7 +135,7 @@ h1 {
 h2 {
   font-size: 22px;
   font-weight: lighter;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 h3 {
@@ -147,11 +144,6 @@ h3 {
 }
 p {
   text-align: left;
-}
-
-.label {
-  font-weight: bold;
-  margin-right: 10px;
 }
 
 main {
@@ -176,6 +168,7 @@ main {
 
 .title__italic {
   font-size: 16px;
+  font-variant: all-petite-caps;
   color: rgb(54, 53, 53);
 }
 .line {
@@ -188,4 +181,37 @@ main {
   font-weight: lighter;
   color: black;
   display: block;
+  font-family: "Montserrat";
+}
+
+.work ul {
+  color: rgb(61, 58, 58);
+  font-size: 14px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.animated-progress {
+  width: 200px;
+  height: 10px;
+  border-radius: 6px;
+  margin: 20px 0px;
+  border: 1px solid #ad998b;
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-progress span {
+  height: 100%;
+  display: block;
+  width: 0;
+  position: absolute;
+}
+
+.progress-blue span {
+  background-color: #c5b7aa;
+  width: 10px;
 }
