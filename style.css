@@ -135,12 +135,12 @@ h1 {
 h2 {
   font-size: 22px;
   font-weight: lighter;
-  /* font-style: italic; */
 }
 
 h3 {
   font-size: 18px;
   font-weight: 800;
+  font-weight: normal;
 }
 p {
   text-align: left;
@@ -166,7 +166,8 @@ main {
   color: rgb(54, 53, 53);
 }
 
-.title__italic {
+.title__uppercase {
+  margin: 0;
   font-size: 16px;
   font-variant: all-petite-caps;
   color: rgb(54, 53, 53);
@@ -177,6 +178,7 @@ main {
 }
 
 .time {
+  margin-bottom: 10px;
   font-size: 12px;
   font-weight: lighter;
   color: black;
@@ -184,34 +186,54 @@ main {
   font-family: "Montserrat";
 }
 
-.work ul {
+.work ul,
+.section__right span {
   color: rgb(61, 58, 58);
   font-size: 14px;
 }
 
-.label {
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-.animated-progress {
-  width: 200px;
-  height: 10px;
-  border-radius: 6px;
-  margin: 20px 0px;
-  border: 1px solid #ad998b;
+.progress {
+  width: 160px;
+  height: 7px;
+  border-radius: 4px;
+  margin: 5px 0px;
+  outline: 1px solid #ad998b;
   overflow: hidden;
   position: relative;
 }
 
-.animated-progress span {
+.progress span {
   height: 100%;
   display: block;
   width: 0;
+  border-radius: 3px;
   position: absolute;
 }
 
-.progress-blue span {
+.progress-color span {
   background-color: #c5b7aa;
-  width: 10px;
+}
+
+.progress-color .js {
+  width: 40px;
+}
+
+.progress-color .html {
+  width: 85px;
+}
+
+.progress-color .css {
+  width: 80px;
+}
+
+.progress-color .vsc {
+  width: 95px;
+}
+
+.progress-color .git {
+  width: 100px;
+}
+
+.progress-color .jira {
+  width: 55px;
 }
