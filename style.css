@@ -54,9 +54,9 @@ header {
 }
 
 .contact {
-  padding: 20px 40px 40px 40px;
+  padding: 20px 40px 40px 24px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #c7c0b9;
 }
 
@@ -80,6 +80,18 @@ header {
   left: 5px;
   transform: scale(0.7);
   background: url("/assets/images/mail-icon.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+
+.contact__github::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  top: 12px;
+  left: 8px;
+  transform: scale(0.6);
+  background: url("/assets/images/github-logo.png") no-repeat;
   width: 33px;
   height: 33px;
 }
