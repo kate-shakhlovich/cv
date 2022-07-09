@@ -81,6 +81,18 @@ html {
   height: 33px;
 }
 
+.contact__linkedin::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  top: 12px;
+  left: 8px;
+  transform: scale(0.6);
+  background: url("assets/images/linkedin-icon.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+
 .contact__github::before {
   content: "";
   position: relative;
@@ -214,26 +226,22 @@ main {
   background-color: #c5b7aa;
 }
 
-.progress-color .js {
+#progress40 {
   width: 40px;
 }
 
-.progress-color .html {
-  width: 85px;
+#progress60 {
+  width: 60px;
 }
 
-.progress-color .css {
+#progress80 {
   width: 80px;
 }
 
-.progress-color .vsc {
-  width: 95px;
+#progress90 {
+  width: 90px;
 }
 
-.progress-color .git {
+#progress100 {
   width: 100px;
-}
-
-.progress-color .jira {
-  width: 55px;
 }
