@@ -31,10 +31,6 @@ html {
   margin: 10px;
 }
 
-.wrapper {
-  max-height: 300px;
-}
-
 .header__right {
   display: flex;
   flex-direction: column;
